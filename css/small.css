@@ -1,0 +1,77 @@
+body { 
+    font-size: 13px;
+}
+
+
+nav { 
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: right;
+    background-color: royalblue;
+    z-index: 10;
+    box-shadow:  0 0 1em black;
+  }
+
+  
+
+  #ul-mobile { 
+    display: none;
+    position: fixed;
+    text-align: right;
+    padding-left: 20px;
+    right: 0;
+    font-size: 18px;
+    top: 60px;
+    background-color:royalblue; 
+    border-radius: 0 0 0 15px;
+    z-index: 1;
+    transition:  .30s;
+    box-shadow:  0 0 1em black;
+    }
+
+.nav-desktop { 
+    display: none;
+}
+
+.wrapper { 
+    padding-top: 60px;
+}
+
+
+.about-box { 
+    height: 250px;
+    border-radius: 0;
+    
+}
+
+.fifth-box h3 {
+    font-size: 30px;
+}
+
+.fifth-box p { 
+    font-size: 20px;
+}
+
+#Download  > h3 {
+    font-size: 23px;
+   
+  }
+
+#Download { 
+    margin: 10px;
+}
+
+.download-box {
+    height: 75px;
+  }
+
+  footer > p { 
+      font-size: 10px;
+  }
+
+        

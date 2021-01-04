@@ -1,0 +1,43 @@
+.nav-mobile { 
+    
+    right: 0;
+    z-index: 1;
+}
+
+.nav-desktop { 
+    display: none;
+}
+
+#burger-btn { 
+    display: block;
+}
+
+#ul-mobile { 
+    display: none;
+    position: absolute;
+    text-align: right;
+    top: 60px;
+    background-color: rgb(65, 75, 223); 
+    border-radius: 0 0 0 15px;
+    z-index: 1;
+    transition:  .30s;
+    }
+
+.header-text{ 
+   
+    font-size: 10px;
+}
+.header-text span { 
+        font-size: 30px;
+    }
+    
+.item-list li {
+    display: block;    
+        
+    }
+
+    
+.about-box { 
+    
+    width: 48%;
+}

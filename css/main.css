@@ -1,0 +1,298 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 ;
+    color: azure;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  body {
+      margin: 0;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #212529;
+      text-align: left;
+      background: #E0EAFC;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to top, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to top, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+  
+  /* NAVIGATION / HEADER */
+  
+nav { 
+    position: fixed;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: right;
+    background-color: royalblue;
+    
+  }
+  
+  
+  
+#ul-mobile {
+    display: inline-block;
+    position: absolute;
+    top: 59px;
+    background-color:royalblue;
+    list-style-type: none;
+    text-align: center;
+    z-index: 10;
+    margin-right: 1005;
+  }
+  
+.nav-mobile button { 
+    
+    font-size : 40px;
+    padding: 0  20px;
+    background: none;
+    border: none;
+    color: azure;
+    line-height: 60px;
+    
+    
+  }
+  
+.nav-desktop { 
+    display: none;
+    
+  }
+
+.nav-desktop a { 
+  transition: all .1s ease-in-out;
+}
+
+.nav-desktop a:hover { 
+    color: gold;
+}
+  
+a {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 80px;  
+    text-align: center;      
+    line-height: 80px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+.logo {
+    
+    margin: 5px; 
+    width: 100px;
+    height: 50px;
+    
+  
+  }
+  
+/* MAIN */
+
+.wrapper { 
+    margin: 0 auto;
+    padding-top: 140px;
+    width: 100%;
+    max-width: 1400px;
+}
+
+.about-container {
+  display: inline-block;
+  text-align: center; 
+  position: relative;
+  height: auto;
+  width: 100%; 
+  margin: 0 auto;   
+  background-color: none;
+ 
+}
+
+.about-box { 
+    
+  display: inline-block;
+  margin:  20px 0;
+  padding: 10px;
+  width: 100%;
+  height: 420px;
+  text-align: left;
+  background-color: none;
+  vertical-align: top;
+  border-radius: 7px;
+
+  
+}
+
+.second-box { 
+  position: relative;
+  background-image: linear-gradient(rgba(42, 34, 70, 0.8), rgba(42, 34, 70, 0.8)), url('/img/about4.jpg') ;
+  background-size: cover;
+  background-position: center;
+}
+
+.third-box { 
+  position: relative;
+  background-image: linear-gradient(rgba(42, 34, 70, 0.8), rgba(42, 34, 70, 0.8)), url('/img/about3.jpg') ;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.fourth-box { 
+  position: relative;
+  background-image: linear-gradient(rgba(42, 34, 70, 0), rgba(255, 255, 255, 0)), url('/img/about1.jpg') ;
+  height: 470px;
+  background-size: cover;
+  background-position: center;
+  box-shadow:  0 0 2em rgb(46, 46, 46);
+  
+}
+
+.fifth-box { 
+  position: relative;
+  height: 470px;
+  text-align: left;
+  color: black;
+  text-shadow: none;
+  background-image: none;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.about-box h3 {
+  
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px;
+  text-shadow: 3px 3px black;
+  transition: all .2s ease-in-out;  
+}
+
+.about-box h3:hover {
+  transform: scale(1.1);
+}
+
+.text {
+  
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  text-align: left;
+  transform: translate(-20%, -50%);
+  
+  
+}
+
+.fifth-box h3 {
+  font-size: 50px;
+  font-weight:600;
+  text-align: left;
+  color: black;
+  text-shadow: none;
+}
+
+.fifth-box p { 
+  font-size: 40px;
+  font-weight: 400;
+  color: black;
+}
+
+
+#Download { 
+  
+  background-color: royalblue;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 30px;
+  
+}
+
+.download-container  {
+   
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%; 
+  height: auto;
+
+
+}
+
+.download-box { 
+  
+  display: inline-block;
+  margin: 20px;
+  height: 80px;
+  width: 300px;
+  text-align: center;
+  line-height: 80px;
+  border-radius: 15px;
+  box-shadow: 3px 3px rgb(116, 114, 114);
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+ 
+}
+
+.download-box:hover { 
+  transform: scale(1.1);
+  color: black;
+  box-shadow: none;      
+  
+}
+
+#Download  > h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#download-apple { 
+  background-image: url('/img/apple.jpg');
+  background-size: cover;
+}
+
+#download-google { 
+  background-image: url('/img/google.jpg');
+  background-size: cover;
+}
+
+#Contact { 
+    
+    height: 150px;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(39, 39, 39);
+}
+
+#Contact > h2 { 
+  font-size: 25px;
+  
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+
+footer > p { 
+  position: absolute;
+  font-size: 18px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
