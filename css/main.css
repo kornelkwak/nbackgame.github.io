@@ -257,12 +257,12 @@ a {
 }
 
 #download-apple { 
-  background-image: url('img/apple.jpg');
+  background-image: url('/nbackgame.github.io/img/apple.jpg');
   background-size: cover;
 }
 
 #download-google { 
-  background-image: url('img/google.jpg');
+  background-image: url('/nbackgame.github.io/img/google.jpg');
   background-size: cover;
 }
 
