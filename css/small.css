@@ -1,9 +1,9 @@
-body { 
+body {
     font-size: 13px;
 }
 
 
-nav { 
+nav {
     position: fixed;
     display: flex;
     align-items: center;
@@ -14,64 +14,89 @@ nav {
     text-align: right;
     background-color: royalblue;
     z-index: 10;
-    box-shadow:  0 0 1em black;
-  }
+    box-shadow: 0 0 1em black;
+}
 
-  
+#burger-btn {
+    padding: 20px;
+    text-align: center;
+    transition: all .2s ease-out;
+}
 
-  #ul-mobile { 
-    display: none;
+#burger-btn:active {
+    transform: rotateX(60deg);
+}
+
+#ul-mobile {
+    display: block;
+    visibility: hidden;
     position: fixed;
     text-align: right;
     padding-left: 20px;
     right: 0;
     font-size: 18px;
-    top: 60px;
-    background-color:royalblue; 
+    top: -60px;
+    background-color: royalblue;
     border-radius: 0 0 0 15px;
-    z-index: 1;
-    transition:  .30s;
-    box-shadow:  0 0 1em black;
-    }
+    box-shadow: 0 0 1em black;
+    transition: all .1s ease-in;
+}
 
-.nav-desktop { 
+#burger-btn:focus {
+    outline: none;
+}
+
+.fa-bars {
+    display: block;
+
+}
+
+.fa-times {
+    display: none;
+
+}
+
+.nav-desktop {
     display: none;
 }
 
-.wrapper { 
+.wrapper {
     padding-top: 60px;
 }
 
 
-.about-box { 
+.about-box {
     height: 250px;
     border-radius: 0;
-    
+
+}
+
+.third-box h3, .second-box h3, p {
+    font-size: 13px;
 }
 
 .fifth-box h3 {
     font-size: 30px;
 }
 
-.fifth-box p { 
+.fifth-box p {
     font-size: 20px;
 }
 
-#Download  > h3 {
-    font-size: 23px;
-   
-  }
-
-#Download { 
+#Download>h3 {
+    font-size: 20px;
     margin: 10px;
+
+}
+
+#Download {
+    margin: 35px 10px;
 }
 
 .download-box {
     height: 75px;
-  }
+}
 
-  footer > p { 
-      font-size: 10px;
-  }
-
-        
+footer>p {
+    font-size: 10px;
+}
